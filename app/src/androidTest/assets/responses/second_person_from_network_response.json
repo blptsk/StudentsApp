@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mademoiselle",
+        "first": "Tiffany",
+        "last": "Thomas"
+      },
+      "location": {
+        "street": {
+          "number": 6463,
+          "name": "Rue Barrier"
+        },
+        "city": "Willisau",
+        "state": "Neuchâtel",
+        "country": "Switzerland",
+        "postcode": 7239,
+        "coordinates": {
+          "latitude": "-57.3355",
+          "longitude": "66.9720"
+        },
+        "timezone": {
+          "offset": "-3:00",
+          "description": "Brazil, Buenos Aires, Georgetown"
+        }
+      },
+      "email": "tiffany.thomas@example.com",
+      "login": {
+        "uuid": "ff85a6f7-4d64-440e-a110-737c60be1e49",
+        "username": "angrykoala280",
+        "password": "aspire",
+        "salt": "2ysrd3xf",
+        "md5": "af72eeedaf247d33abc14eaa9f041f14",
+        "sha1": "ae471022d350600f454ba60490a64f4101cd47af",
+        "sha256": "b03e8c62595b4ce44092c210b6c1272105aef51b18b6c730db19de46fcbf6263"
+      },
+      "dob": {
+        "date": "1972-09-22T22:43:47.355Z",
+        "age": 52
+      },
+      "registered": {
+        "date": "2017-05-19T07:31:31.320Z",
+        "age": 8
+      },
+      "phone": "079 192 69 69",
+      "cell": "079 307 59 36",
+      "id": {
+        "name": "AVS",
+        "value": "756.0896.1350.15"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/39.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/39.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/39.jpg"
+      },
+      "nat": "CH"
+    }
+  ],
+  "info": {
+    "seed": "b4112cbb7a921b82",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

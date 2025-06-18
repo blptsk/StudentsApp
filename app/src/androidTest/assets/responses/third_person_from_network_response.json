@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Dobrolyub",
+        "last": "Stupka"
+      },
+      "location": {
+        "street": {
+          "number": 3193,
+          "name": "Festivalniy provulok"
+        },
+        "city": "Svitlodarsk",
+        "state": "Ivano-Frankivska",
+        "country": "Ukraine",
+        "postcode": 56214,
+        "coordinates": {
+          "latitude": "76.2182",
+          "longitude": "-65.8585"
+        },
+        "timezone": {
+          "offset": "+10:00",
+          "description": "Eastern Australia, Guam, Vladivostok"
+        }
+      },
+      "email": "dobrolyub.stupka@example.com",
+      "login": {
+        "uuid": "5df5ec58-4d29-41b1-9f2b-e29414085f1a",
+        "username": "blackpanda888",
+        "password": "wp2003wp",
+        "salt": "rZjJgTeZ",
+        "md5": "5142d9564da11397f5a757c0e821c4af",
+        "sha1": "0d6867490f024a23ab8106392f7f3d4b18997768",
+        "sha256": "47caa4e65d9a170d67d3c464c910b6e3278f10943f4f694247ff3e3160dd0fc8"
+      },
+      "dob": {
+        "date": "1953-12-12T01:39:04.226Z",
+        "age": 71
+      },
+      "registered": {
+        "date": "2013-10-26T23:25:57.597Z",
+        "age": 11
+      },
+      "phone": "(066) H05-3906",
+      "cell": "(098) G40-4390",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/31.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/31.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/31.jpg"
+      },
+      "nat": "UA"
+    }
+  ],
+  "info": {
+    "seed": "1742708ebab76e6d",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
