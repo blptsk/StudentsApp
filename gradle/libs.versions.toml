@@ -1,0 +1,59 @@
+[versions]
+androidGradlePlugin = "8.6.0"
+kotlin = "2.2.0"
+ksp = "1.9.24-1.0.20"
+androidxCore = "1.16.0"
+appcompat = "1.7.1"
+material = "1.12.0"
+constraintLayout = "2.2.1"
+retrofit = "3.0.0"
+okhttp = "5.1.0"
+okhttpLogging = "5.1.0"
+retrofitGson = "3.0.0"
+coroutines = "1.10.2"
+gson = "2.13.1"
+rxjava = "2.2.21"
+lifecycleExtensions = "1.1.1"
+lifecycle = "2.9.2"
+glide = "4.16.0"
+room = "2.7.2"
+databinding = "3.2.0-alpha11"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+google-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintLayout" }
+
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+okhttp-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttpLogging" }
+retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitGson" }
+
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+rxjava = { group = "io.reactivex.rxjava2", name = "rxjava", version.ref = "rxjava" }
+
+lifecycle-extensions = { group = "android.arch.lifecycle", name = "extensions", version.ref = "lifecycleExtensions" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
+
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+
+databinding-base = { group = "androidx.databinding", name = "baseLibrary", version.ref = "databinding" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+kotlin-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }

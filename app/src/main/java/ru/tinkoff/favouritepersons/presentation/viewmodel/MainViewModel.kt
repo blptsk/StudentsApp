@@ -55,7 +55,13 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         personListMediator = MediatorLiveData<List<PersonItem>>()
         personListSource = getPersonListUseCase.getPersonList().asLiveData()
         personListMediator.addSource(personListSource) {
-            personListMediator.postValue(it.sortByDescending(currentSortMethod.value ?: PersonFields.NO_METHOD))
+            personListMediator.value?.let {
+                personListMediator.postValue(
+                    it.sortByDescending(
+                        currentSortMethod.value ?: PersonFields.NO_METHOD
+                    )
+                )
+            }
         }
         personListMediator.addSource(currentSortMethod) { method ->
             personListMediator.value?.let { personList ->
