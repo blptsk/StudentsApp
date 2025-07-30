@@ -55,13 +55,8 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         personListMediator = MediatorLiveData<List<PersonItem>>()
         personListSource = getPersonListUseCase.getPersonList().asLiveData()
         personListMediator.addSource(personListSource) {
-            personListMediator.value?.let {
-                personListMediator.postValue(
-                    it.sortByDescending(
-                        currentSortMethod.value ?: PersonFields.NO_METHOD
-                    )
-                )
-            }
+
+            personListMediator.postValue(it.sortByDescending(currentSortMethod.value ?: PersonFields.NO_METHOD))
         }
         personListMediator.addSource(currentSortMethod) { method ->
             personListMediator.value?.let { personList ->
@@ -109,13 +104,14 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     private fun List<PersonItem>.sortByDescending(sortingMethod: PersonFields): List<PersonItem> {
-        return (this as MutableList<PersonItem>).apply {
+        val mutableList = this.toMutableList()
+        return mutableList.apply {
             when (sortingMethod) {
-                PersonFields.BY_SURNAME -> sortByDescending { it.surname }
-                PersonFields.BY_RATING -> sortByDescending { it.rating }
-                PersonFields.BY_AGE -> sortByDescending { it.age }
-                PersonFields.NO_METHOD -> sortByDescending { it.id }
+                PersonFields.BY_SURNAME -> this.sortByDescending { it.surname }
+                PersonFields.BY_RATING -> this.sortByDescending { it.rating }
+                PersonFields.BY_AGE -> this.sortByDescending { it.age }
+                PersonFields.NO_METHOD -> this.sortByDescending { it.id }
             }
-        }.toList()
+        }
     }
 }
