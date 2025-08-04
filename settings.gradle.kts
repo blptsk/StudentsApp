@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "FavouritePersons"
-include ':app'
+include (":app")
