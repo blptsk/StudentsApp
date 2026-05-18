@@ -1,0 +1,64 @@
+{
+  "results": [{
+    "gender": "female",
+    "name": {
+      "title": "Ms",
+      "first": "Miriam",
+      "last": "Grant"
+    },
+    "location": {
+      "street": {
+        "number": 5557,
+        "name": "Forest Ln"
+      },
+      "city": "Townsville",
+      "state": "Victoria",
+      "country": "Australia",
+      "postcode": 6464,
+      "coordinates": {
+        "latitude": "-88.0423",
+        "longitude": "66.5345"
+      },
+      "timezone": {
+        "offset": "+3:00",
+        "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+      }
+    },
+    "email": "miriam.grant@example.com",
+    "login": {
+      "uuid": "b5d884dd-6ea3-4c64-a5e9-76ed0d2d8a7f",
+      "username": "purpleladybug453",
+      "password": "tiffany",
+      "salt": "5NoYxqMv",
+      "md5": "594c71566d35358818d3e5e23aeb8901",
+      "sha1": "bc76a1ca106b5be494d67a5682e8b132648686bf",
+      "sha256": "d918472fd066d6f3e39e0dff01f5e732954c22ee01f54d246760ce92424bf6b7"
+    },
+    "dob": {
+      "date": "1997-03-02T21:43:56.636Z",
+      "age": 29
+    },
+    "registered": {
+      "date": "2019-07-22T12:43:20.031Z",
+      "age": 6
+    },
+    "phone": "08-1856-4940",
+    "cell": "0433-725-308",
+    "id": {
+      "name": "TFN",
+      "value": "236945344"
+    },
+    "picture": {
+      "large": "http://localhost:5000/api/portraits/women/1.jpg",
+      "medium": "http://localhost:5000/api/portraits/med/women/1.jpg",
+      "thumbnail": "http://localhost:5000/api/portraits/thumb/women/1.jpg"
+    },
+    "nat": "AU"
+  }],
+  "info": {
+    "seed": "1e51aa0498a8b117",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

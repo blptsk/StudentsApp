@@ -1,0 +1,64 @@
+{
+  "results": [{
+    "gender": "female",
+    "name": {
+      "title": "Mrs",
+      "first": "Mélissa",
+      "last": "Leroy"
+    },
+    "location": {
+      "street": {
+        "number": 4368,
+        "name": "Rue Duquesne"
+      },
+      "city": "Saint-Étienne",
+      "state": "Alpes-Maritimes",
+      "country": "France",
+      "postcode": 10588,
+      "coordinates": {
+        "latitude": "-16.0789",
+        "longitude": "81.6856"
+      },
+      "timezone": {
+        "offset": "+8:00",
+        "description": "Beijing, Perth, Singapore, Hong Kong"
+      }
+    },
+    "email": "melissa.leroy@example.com",
+    "login": {
+      "uuid": "d98d6ed0-0d28-4045-a2b0-7bfdd5526e61",
+      "username": "angryladybug754",
+      "password": "presto",
+      "salt": "1iHbtu6j",
+      "md5": "a0dba737baf9674335567349f5ee5793",
+      "sha1": "d265a427dd16fdd3e0583fefd59961592253490d",
+      "sha256": "8d805c8c8e882d6c6f9a93de440f5bac27d61333a994bfb837df0d7a8bf9590f"
+    },
+    "dob": {
+      "date": "м",
+      "age": 27
+    },
+    "registered": {
+      "date": "2019-07-18T00:14:49.036Z",
+      "age": 6
+    },
+    "phone": "02-31-49-40-78",
+    "cell": "06-41-70-34-20",
+    "id": {
+      "name": "INSEE",
+      "value": "2990121438267 06"
+    },
+    "picture": {
+      "large": "http://localhost:5000/api/portraits/women/80.jpg",
+      "medium": "http://localhost:5000/api/portraits/med/women/80.jpg",
+      "thumbnail": "http://localhost:5000/api/portraits/thumb/women/80.jpg"
+    },
+    "nat": "FR"
+  }],
+  "info": {
+    "seed": "e8a8781f4198e67a",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

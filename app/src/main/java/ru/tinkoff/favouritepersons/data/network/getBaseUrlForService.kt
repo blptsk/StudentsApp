@@ -12,5 +12,5 @@ fun getBaseUrlForService(context: Context) : String{
             prefsEditor.commit()
         }
 
-        return data?:"https://randomuser.me/"
+        return data ?: "https://randomuser.me/"
 }

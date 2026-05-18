@@ -86,7 +86,6 @@ class MainActivity : AppCompatActivity() {
                 progressIndicator.visibility = View.GONE
         }
         initializeFabClickListeners()
-
     }
 
 

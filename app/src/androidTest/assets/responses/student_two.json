@@ -1,0 +1,64 @@
+{
+  "results": [{
+    "gender": "female",
+    "name": {
+      "title": "Miss",
+      "first": "Lucy",
+      "last": "Pearson"
+    },
+    "location": {
+      "street": {
+        "number": 5514,
+        "name": "The Grove"
+      },
+      "city": "Laytown-Bettystown-Mornington",
+      "state": "Monaghan",
+      "country": "Ireland",
+      "postcode": 14470,
+      "coordinates": {
+        "latitude": "1.8410",
+        "longitude": "160.0691"
+      },
+      "timezone": {
+        "offset": "+9:30",
+        "description": "Adelaide, Darwin"
+      }
+    },
+    "email": "lucy.pearson@example.com",
+    "login": {
+      "uuid": "ab2e8e8b-09b9-4a52-8272-85e3d2a1f4ba",
+      "username": "blackleopard384",
+      "password": "johndeer",
+      "salt": "LTKQtlWj",
+      "md5": "9ad6ef8b01b89ca961f4e4fa69ea1a16",
+      "sha1": "a16a67a229fbeefeb520e69f7683834a6d8a5bc7",
+      "sha256": "15ee6c475a0fbb93ab88d47c9e58d409172c0ae42c9c487975a69a954676c1ff"
+    },
+    "dob": {
+      "date": "1997-04-11T12:23:57.310Z",
+      "age": 28
+    },
+    "registered": {
+      "date": "2006-03-12T00:31:13.507Z",
+      "age": 20
+    },
+    "phone": "021-619-2661",
+    "cell": "081-379-0926",
+    "id": {
+      "name": "PPS",
+      "value": "6956224T"
+    },
+    "picture": {
+      "large": "http://localhost:5000/api/portraits/women/82.jpg",
+      "medium": "http://localhost:5000/api/portraits/med/women/82.jpg",
+      "thumbnail": "http://localhost:5000/api/portraits/thumb/women/82.jpg"
+    },
+    "nat": "IE"
+  }],
+  "info": {
+    "seed": "7d26aeeef96cc34f",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
